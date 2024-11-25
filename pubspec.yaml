@@ -1,0 +1,38 @@
+name: code_and_tree
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  file_picker: ^8.1.2
+  flutter_treeview: ^1.0.7
+  path_provider: ^2.0.15
+  path: ^1.8.0
+  flutter_split_view: ^1.0.0
+  logging: ^1.1.0
+  async: ^2.11.0
+  permission_handler: ^10.0.0
+  flutter_riverpod: ^2.4.9
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
